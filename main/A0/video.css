@@ -1,0 +1,50 @@
+  .video-box {
+      display: flex;
+      align-items: center;
+      /* 垂直居中 */
+     
+      /* 水平居中（如果.video-box是块级元素且宽度固定）*/
+      margin: 0 50 0 0;
+      padding-left: 500px;
+      border-radius: 5px;
+      text-decoration: none;
+      /* 移除链接的下划线 */
+      cursor: pointer;
+      /* 添加点击效果 */
+      transition: transform 0.3s ease-in-out;
+      /* 平滑过渡效果 */
+  }
+
+  .video-box:hover {
+      /* 鼠标悬停时放大 */
+      transform: scale(1.2);
+  }
+
+  .video-text {
+      margin-right: 10px;
+      /* 根据需要调整文本和图标之间的间距 */
+      font-size: 16px;
+      color: rgb(179, 22, 22);
+      font-family: "阿里巴巴普惠体 常规";
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 2;
+  }
+
+  .play-icon {
+      font-size: 24px;
+      /* Font Awesome图标的字体大小 */
+      /* 无需动画，因为我们只是希望它作为一个可以点击的图标 */
+  }
+
+  /* 如果需要的话，可以为链接添加一些样式 */
+  .video-link {
+      color: inherit;
+      /* 继承父元素的文本颜色 */
+      text-decoration: none;
+      /* 移除链接的下划线 */
+      display: flex;
+      /* 使得文本和图标在同一行 */
+      align-items: center;
+      /* 垂直居中 */
+  }

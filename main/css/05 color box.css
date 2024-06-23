@@ -1,0 +1,42 @@
+ /* styles.css */
+
+ .boxes-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     max-width: 640px;
+     /* 3个盒子宽度 + 2个间隔（如果有的话），这里假设没有间隔 */
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .box {
+     width: 200px;
+     height: 200px;
+     background-color: rgb(124, 123, 123);
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+     /* 每排盒子之间的垂直间距 */
+     border-radius: 10px;
+     transition: transform 0.3s ease, opacity 0.3s ease;
+ }
+
+ .box:hover {
+     transform: scale(1.1);
+     z-index: 1;
+     opacity: 0.8;
+     background-color: rgb(255, 5, 5);
+ }
+
+ /* 清除每排最后一个盒子的右边距 */
+ .boxes-container>.box:nth-child(3n) {
+     margin-right: 0;
+ }
+
+ /* 清除最后一排盒子的底部间距 */
+ .boxes-container>.box:nth-last-child(-n + 3):not(:nth-child(3n)) {
+     margin-bottom: 0;
+ }

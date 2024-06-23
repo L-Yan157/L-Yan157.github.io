@@ -1,0 +1,11 @@
+/* 在<style>标签内或外部CSS文件中 */
+.next {
+    /* 初始大小或其他样式 */
+    transition: transform 0.3s ease-in-out;
+    /* 平滑过渡效果 */
+}
+
+.next:hover {
+    /* 鼠标悬停时放大 */
+    transform: scale(1.2);
+}

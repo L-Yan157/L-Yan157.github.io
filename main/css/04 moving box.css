@@ -1,0 +1,83 @@
+  .red-rounded-box {
+      background-image: url(../image1/A22.jpg);
+      width: 500px;
+      /* 设置盒子的宽度 */
+      height: 150px;
+      /* 设置盒子的高度 */
+      background-color: rgb(105, 105, 105);
+      /* 设置盒子的背景色为红色 */
+      border-radius: 10px;
+      /* 设置盒子的圆角 */
+      padding: 20px;
+      /* 设置内边距，使内容不会紧贴边框 */
+      text-align: center;
+      /* 使盒子内的文本居中 */
+      line-height: 100px;
+      /* 使单行文本垂直居中（如果盒子内只有单行文本） */
+      box-sizing: border-box;
+      /* 确保宽度和高度包含边框和内边距 */
+      color: white;
+      /* 文本颜色为白色 */
+      font-size: 20px;
+      /* 字体大小 */
+      text-align: center;
+      /* 文本居中 */
+      padding-left: 35px;
+      padding-right: 35px;
+      line-height: 1.8;
+      letter-spacing: 1px;
+      font-family: "阿里巴巴普惠体";
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+  }
+
+  .red-box {
+      width: 400px;
+      height: 15px;
+      border: 2px solid rgb(165, 4, 4);
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      /* 圆角 */
+
+  }
+
+  .progress-bar {
+      width: 100%;
+      height: 100%;
+      background-color: #7c7c7c;
+      border-radius: inherit;
+      /* 继承父元素的圆角 */
+      position: relative;
+  }
+
+  .progress-fill {
+      height: 100%;
+      width: 0%;
+      background-color: rgb(255, 0, 0);
+      transition: width 1s ease-in-out;
+      /* 缓慢过渡效果 */
+      border-radius: inherit;
+      /* 继承父元素的圆角 */
+  }
+
+  .progress-label {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      font-size: 10px;
+      color: rgb(56, 56, 56);
+      pointer-events: none;
+      /* 防止点击标签时触发事件 */
+      opacity: 0;
+      /* 初始时隐藏标签 */
+      transition: opacity 0.5s ease-in-out;
+      /* 透明度过渡效果 */
+  }
+
+  /* 当进度条填充到24%时显示标签 */
+  .progress-bar.filled .progress-label {
+      opacity: 1;
+  }

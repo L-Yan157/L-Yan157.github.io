@@ -1,0 +1,296 @@
+    * {
+        padding: 0;
+
+        margin: 0;
+    }
+
+    .image_1 {
+        background-image: url(../image1/图片A11.jpg);
+
+        background-position: 0 0;
+
+        background-attachment: fixed;
+
+        background-size: cover;
+
+        height: 680px;
+
+        width: 100%;
+    }
+
+    .image_2 {
+        background-image: url(../image1/图片A12.jpg);
+
+        background-position: 0 0;
+
+        background-attachment: fixed;
+
+        background-size: cover;
+
+        height: 680px;
+
+        width: 100%;
+    }
+
+    .image_3 {
+        background-image: url(../image1/图片A12.jpg);
+
+        background-position: 0 0;
+
+        background-attachment: fixed;
+
+        background-size: cover;
+
+        height: 680px;
+
+        width: 100%;
+    }
+
+    .image_4 {
+        background-image: url(../image1/图片A15.jpg);
+
+        background-position: 0 0;
+
+        background-attachment: fixed;
+
+        background-size: cover;
+
+        height: 680px;
+
+        width: 100%;
+    }
+
+                .image_5 {
+                    background-image: url(../image1/图片A31.jpg);
+        
+                    background-position: 0 0;
+        
+                    background-attachment: fixed;
+        
+                    background-size: cover;
+        
+                    height: 680px;
+        
+                    width: 100%;
+                }
+
+                .image_6 {
+                    background-image: url(../image1/图片A41.jpg);
+        
+                    background-position: 0 0;
+        
+                    background-attachment: fixed;
+        
+                    background-size: cover;
+        
+                    height: 680px;
+        
+                    width: 100%;
+                }
+
+                                                 .image_7 {
+                                                     background-image: url(../image1/A63.jpg);
+                        
+                                                     background-position: 0 0;
+                        
+                                                     background-attachment: fixed;
+                        
+                                                     background-size: cover;
+                        
+                                                     height: 680px;
+                        
+                                                     width: 100%;
+                                                 }
+
+    .word {
+
+        font-size: 60px;
+
+        color: rgb(240, 238, 238);
+
+        text-align: center;
+
+        font-weight: bolder;
+    }
+
+    .word2 {
+        
+        font-size: 14px;
+        
+        color: rgb(255, 255, 255);
+        
+        text-align: left;
+
+        font-family: "阿里巴巴普惠体 常规";
+
+        font-weight: 500;
+
+        letter-spacing: 1px;
+    }
+
+                .word3 {
+        
+                    font-size: 40px;
+        
+                    color: rgb(179, 22, 22);
+        
+                    text-align: center;
+        
+                    font-family: "阿里巴巴普惠体 常规";
+        
+                    font-weight: 600;
+        
+                    letter-spacing: 1px;
+
+                    line-height: 4;
+                }
+    
+    
+                .word4 {
+        
+                    font-size: 14px;
+        
+                    color: rgb(51, 51, 51);
+        
+                    text-align: left;
+        
+                    font-family:"阿里巴巴普惠体 常规";
+        
+                    font-weight: 400;
+        
+                    letter-spacing: 1px;
+
+                    line-height: 2
+                }
+
+                                                                .word7 {
+                                
+                                                                    font-size: 16px;
+                                
+                                                                    color: rgb(179, 22, 22);
+                                
+                                                                    text-align: left;
+                                
+                                                                    font-family: "阿里巴巴普惠体 常规";
+                                
+                                                                    font-weight: 600;
+                                
+                                                                    letter-spacing: 1px;
+                                
+                                                                    line-height: 2
+                                                                }
+
+                .word5 {
+        
+                    font-size: 18px;
+        
+                    color: rgb(161, 161, 161);
+        
+                    text-align: center;
+        
+                    font-family: "阿里巴巴普惠体 常规";
+        
+                    font-weight: 500;
+        
+                    letter-spacing: 1px;
+
+                    line-height: 6
+                }
+    
+                .word6 {
+        
+                    font-size: 12px;
+        
+                    color: rgb(175, 175, 175);
+        
+                    text-align: left;
+        
+                    font-family: "阿里巴巴普惠体 常规";
+        
+                    font-weight: 400;
+        
+                    letter-spacing: 1px;
+
+                    line-height: 3
+                }
+
+    .bg {
+        text-align: center;
+
+        font-size: 46px;
+
+        font-weight: bolder;
+
+        height: 3200px;
+
+        line-height: 220px;
+
+        background-color: rgb(255, 255, 255);
+
+        color: rgb(4, 4, 4);
+    }
+
+          .bg2 {
+              text-align: center;
+    
+              font-size: 46px;
+    
+              font-weight: bolder;
+    
+              height: 4700px;
+    
+              line-height: 220px;
+    
+              background-color: rgb(255, 255, 255);
+    
+              color: rgb(4, 4, 4);
+          }
+
+
+        .bg3 {
+            text-align: center;
+    
+            font-size: 46px;
+    
+            font-weight: bolder;
+    
+            height: 2900px;
+    
+            line-height: 220px;
+    
+            background-color: rgb(255, 255, 255);
+    
+            color: rgb(4, 4, 4);
+        }
+
+                .bg4 {
+                    text-align: center;
+        
+                    font-size: 46px;
+        
+                    font-weight: bolder;
+        
+                    height: 2100px;
+        
+                    line-height: 220px;
+        
+                    background-color: rgb(255, 255, 255);
+        
+                    color: rgb(4, 4, 4);
+                }
+
+        .bg5 {
+            text-align: center;
+    
+            font-size: 46px;
+    
+            font-weight: bolder;
+    
+            height: 5060px;
+    
+            line-height: 220px;
+    
+            background-color: rgb(255, 255, 255);
+    
+            color: rgb(4, 4, 4);
+        }

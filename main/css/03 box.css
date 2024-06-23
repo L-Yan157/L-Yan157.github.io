@@ -1,0 +1,54 @@
+
+
+  .box-container {
+      display: flex;
+      gap: 100px;
+      /* 盒子之间的间距 */
+  }
+
+  .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      /* 盒子的宽度 */
+      height: 350px;
+      /* 盒子的高度 */
+      border-radius: 10px;
+      /* 添加圆角 */
+      transition: transform 0.3s ease;
+      /* 过渡效果，使得放大更加平滑 */
+      color: white;
+      /* 文本颜色为白色 */
+      font-size: 20px;
+      /* 字体大小 */
+      text-align: center;
+      /* 文本居中 */
+      padding-left: 35px;
+      padding-right: 35px;
+      line-height: 1.8;
+      letter-spacing: 1px;
+      font-family: "阿里巴巴普惠体";
+      font-size: 16px;
+      font-weight: 500;
+      text-align: left;
+  }
+
+  .box-black {
+      background-color: rgb(50, 50, 50);
+  }
+
+  .box-red {
+      background-color: rgb(182, 4, 4);
+  }
+
+  .box:hover {
+      transform: scale(1.2);
+      /* 鼠标悬停时放大到1.1倍 */
+      opacity: 0.9;
+  }
+
+  .box-text {
+      margin: 0;
+      /* 移除段落默认的上下外边距 */
+  }

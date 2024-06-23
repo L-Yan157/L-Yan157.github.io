@@ -1,0 +1,45 @@
+
+
+.container2 {
+    display: flex;
+    /* 使用Flexbox布局 */
+    flex-wrap: wrap;
+    /* 允许换行（如果需要的话）*/
+    justify-content: center;
+    /* 在容器内水平居中 */
+    align-items: center;
+    /* 垂直居中可能不需要，因为每个.box已经是独立的 */
+}
+
+.box {
+    width: 210px;
+    height: 210px;
+    line-height: 100px;
+    /* 垂直居中文字 */
+    text-align: center;
+    /* 水平居中文字 */
+    margin: 2px;
+    background-color: red;
+    /* 初始颜色为红色 */
+    color: white;
+    /* 文字颜色为白色 */
+    cursor: pointer;
+    /* 鼠标悬停时显示为小手形状 */
+    transition: opacity 0.3s ease;
+    /* 过渡效果应用于透明度 */
+    display: inline-flex;
+    /* 使用Flexbox使文字垂直居中（替代line-height）*/
+    align-items: center;
+    /* 垂直居中 */
+    justify-content: center;
+    /* 水平居中 */
+    border-radius: 10px;
+    /* 圆角 */
+    opacity: 1;
+    /* 初始透明度为1（完全不透明） */
+}
+
+.box.hovered {
+    opacity: 0.5;
+    /* 鼠标悬停时透明度为0.5（半透明） */
+}

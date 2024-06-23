@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #010302;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+.container {
+    overflow: hidden;
+    height: max-content;
+
+}
+
+.banner {
+    height: 50vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner .bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center bottom;
+    transition: 0.1s;
+}
+
+.banner .bg:nth-child(1) {
+    background-image: url(images/banner_0.png);
+}
+
+.banner .bg:nth-child(2) {
+    background-image: url(images/banner_1.png);
+}
+
+.banner .bg:nth-child(3) {
+    top: 32%;
+    text-align: left;
+    text-indent: 8em;
+
+}
+
+.banner .bg:nth-child(3) h3,
+.banner .bg:nth-child(3) h3 {
+    color: #6e0906;
+    font-size: 20px;
+    margin: 0px;
+    margin-left: 10px;
+    text-shadow: 0 0px 8px #431107;
+}
+
+.banner .bg:nth-child(3) h3 {
+    font-size: 4vw;
+}
+
+.banner .bg:nth-child(4) {
+    background-image: url(images/banner_2.png);
+}
+
+.banner .bg:nth-child(5) {
+    background-image: url(images/banner_3.png);
+}
+
+
+/* 这开始是图片 */
+.tab {
+    min-height: 100vh;
+    background-color: #010302;
+    z-index: 1;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tab::before {
+    position: absolute;
+    height: 200px;
+    width: 100vw;
+    background: linear-gradient(to top, #010302, transparent);
+    content: '';
+    bottom: 100%;
+    left: 0;
+}
+
+.tab.tab1 {
+    
+    background: linear-gradient(to top, 
+    #010302 0%,
+            transparent 45%,
+            #010302 100%), url(images/tab1.jpg);
+}
+
+.tab.tab2 {
+    background: linear-gradient(to top,
+            #010302 0%,
+            transparent 45%,
+            #010302 100%), url(images/tab2.jpg);
+}
+
+.tab.tab3 {
+    background: linear-gradient(to top,
+            #010302 0%,
+            transparent 45%,
+            #010302 100%),
+        url(images/tab3.jpg);
+}
+
+.tab.tab4 {
+    background: linear-gradient(to top,
+            #010302 0%,
+            transparent 45%,
+            #010302 100%),
+        url(images/tab4.jpg);
+}
+
+.tab.tab5 {
+    background: linear-gradient(to top,
+            #010302 0%,
+            transparent 45%,
+            #010302 100%),
+        url(images/tab5.jpg);
+}
+
+.tab.tab1 .content {
+    width: 700px;
+    max-width: 90%;
+    color: #eee;
+}
+
+.tab.tab2 .content {
+    color: #eee;
+    width: 900px;
+    max-width: 90%;
+}
+
+.tab.tab2 .content .des {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* 下面是新的！ */
+
+
+.tab.tab3 .content {
+    color: #eee;
+    width: 900px;
+    max-width: 90%;
+}
+
+.tab.tab3 .content .des {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.tab.tab4 .content {
+    color: #eee;
+    width: 900px;
+    max-width: 90%;
+}
+
+.tab.tab4 .content .des {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.tab.tab5 .content {
+    color: #eee;
+    width: 900px;
+    max-width: 90%;
+}
+
